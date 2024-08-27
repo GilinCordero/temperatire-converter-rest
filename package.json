@@ -1,0 +1,21 @@
+{
+  "name": "temperatureconvertertest",
+  "version": "1.0.0",
+  "description": "Temperature Converter Rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "Gilberto Cordero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
+}
