@@ -1,7 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
-const apiRoutes = require("./routes/temperature.routes");
-
+const apiRoutes = require("./routes/temperature.route");
 // App
 const app = express()
 // Morgan
